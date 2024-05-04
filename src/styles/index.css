@@ -1,12 +1,23 @@
 
-/* 
+.font {
+    font-family: monospace;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.background {
+    background-color: rgb(213, 221, 238);
+    background-image: url('/src/img/StarWarsJediOrderSymbolLogoBlack_5.webp');
+    background-size: 50%;
+    background-position-x:center;
+    background-position-y: 150px;
+    background-repeat: no-repeat;
+}
+
+.backgroundSith {
+    background-color: black;
+    background-image: url('/src/img/sith-logo-in-red-65egz5i3quldr3ap.webp');
+    background-size: 100%;
+    background-position-x:center;
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+}
